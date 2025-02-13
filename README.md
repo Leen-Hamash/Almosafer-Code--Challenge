@@ -1,5 +1,3 @@
-
-
 ## Scenario
 
 We have a page in our system called *'Flight Inspirations'* where user can see suggestion for his upcoming travel.
@@ -18,6 +16,7 @@ II. Create a form with two inputs: one for the city code and another one for the
 
 III. Using the values from the form do the API call to fetch Flight Inspirations 
 http://developers.amadeus.com/self-service/category/flights/api-doc/flight-inspiration-search/api-reference
+
 
 IV. Display the results of the call in the table you have in this codebase. Feel free to edit any code necessary, its just a blueprint. The only thing that you should pay attention is that cell edit/hightlight/save functionality is working.
 
