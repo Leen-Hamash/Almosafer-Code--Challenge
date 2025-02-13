@@ -19,13 +19,13 @@ II. Create a form with two inputs: one for the city code and another one for the
 III. Using the values from the form do the API call to fetch Flight Inspirations 
 http://developers.amadeus.com/self-service/category/flights/api-doc/flight-inspiration-search/api-reference
 
-IV. Display the results of the call in the table you have in this codebase. Feel free to edit any code necessary, its just a blueprint.
+IV. Display the results of the call in the table you have in this codebase. Feel free to edit any code necessary, its just a blueprint. The only thing that you should pay attention is that cell edit/hightlight/save functionality is working.
 
 V. After data is displayed make sure its styled nicely. 
 
 VI. Add drag and drop functionality to the columns of the table. (You should be able to switch position of the columns: eg. 5 -> 1, 1 -> 2, etc).
 
-VII. Add client side pagination on scroll.
+VII. Add client side pagination.
 
 VII. Optimize the state management of the app.
 
