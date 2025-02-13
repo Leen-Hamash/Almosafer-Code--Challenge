@@ -1,11 +1,12 @@
-## Use-case
+## Scenario
 
-We have a page in pur system called 'Flight Inspirations' where user can see suggestion for his upcoming travel.
+We have a page in our system called *'Flight Inspirations'* where user can see suggestion for his upcoming travel.
 You need to ceate an admin dashboard to view and edit the 'Flight Inspirations'.
 
 ## What is already in the codebase:
-Yu have Tanstack table. Each table cell is editable and after updating any cell (or multiple cells) you will see the editted cells in highlighted color. 
+You have Tanstack table. Each table cell is editable and after updating any cell (or multiple cells) you will see the editted cells in highlighted color. 
 You are able to save the cells and the data in the table is persisted. This functionality should remain working.
+<img width="1576" alt="Screenshot 2025-02-13 at 2 57 33 PM" src="https://github.com/user-attachments/assets/e83cf53d-65e2-443b-a8af-1102c82bc720" />
 
 ## Assignment:
 I. Register on Amadeus Developer and get access to their free open-source APIs we will use in this challenge:
@@ -16,13 +17,16 @@ II. Create a form with two inputs: one for the city code and another one for the
 III. Using the values from the form do the API call to fetch Flight Inspirations 
 http://developers.amadeus.com/self-service/category/flights/api-doc/flight-inspiration-search/api-reference
 
-IV. Display the results of the call in the table you have in this codebase. Feel free to edit any code necessary, its just a blueprint.
+
+IV. Display the results of the call in the table you have in this codebase. Feel free to edit any code necessary, its just a blueprint. The only thing that you should pay attention is that cell edit/hightlight/save functionality is working.
 
 V. After data is displayed make sure its styled nicely. 
 
 VI. Add drag and drop functionality to the columns of the table. (You should be able to switch position of the columns: eg. 5 -> 1, 1 -> 2, etc).
 
-VII. Add client side pagination on scroll.
+VII. Add client side pagination.
+
+VII. Optimize the state management of the app.
 
 
 ## Conditions
